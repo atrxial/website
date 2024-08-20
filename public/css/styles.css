@@ -1,65 +1,52 @@
-/* styles.css */
-
-/* Reset default browser styles */
-body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Global styles */
+/* Set the font and color for the entire body */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    color: #333; /* Change to your preferred text color */
+    background-color: #f9f9f9; /* Change to your preferred background color */
 }
 
 /* Header styles */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #4CAF50; /* Change to your preferred header background color */
+    color: white; /* Change to your preferred header text color */
+    padding: 1em;
+    text-align: center;
 }
 
-header h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-/* Navigation styles */
-nav {
-    margin-top: 20px;
-}
-
+/* Navigation bar styles */
 nav ul {
     list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #333; /* Change to your preferred nav background color */
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 10px;
+    display: inline;
+    margin: 0 1em;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white; /* Change to your preferred nav link color */
     text-decoration: none;
-    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Main content styles */
 main {
-    margin-top: 20px;
+    padding: 2em;
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    background-color: #333; /* Change to your preferred footer background color */
+    color: white; /* Change to your preferred footer text color */
     text-align: center;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
